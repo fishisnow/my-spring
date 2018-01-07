@@ -1,4 +1,4 @@
-package beans;
+package beans.factory;
 
 /**
  * Created by huangyusong on 17-11-16.

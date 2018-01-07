@@ -1,4 +1,6 @@
-package beans;
+package beans.factory;
+
+import beans.BeanDefinition;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
