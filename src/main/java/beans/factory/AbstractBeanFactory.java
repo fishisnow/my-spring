@@ -25,6 +25,11 @@ public abstract class AbstractBeanFactory implements BeanFactory, BeanDefinition
         beanDefinitionMap.put(beanName, beanDefinition);
     }
 
+    @Override
+    public void removeBeanDefinition(String beanName) throws Exception {
+        beanDefinitionMap.remove(beanName);
+    }
+
     protected abstract Object doGetBean(BeanDefinition beanDefinition);
 
 
