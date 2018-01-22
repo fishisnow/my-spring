@@ -5,6 +5,12 @@ package beans;
  * bean的属性注入
  */
 public class PropertyValue {
+
+    public PropertyValue(String name, Object value) {
+        this.name = name;
+        this.value = value;
+    }
+
     private String name;
 
     private Object value;
